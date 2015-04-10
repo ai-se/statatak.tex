@@ -1,0 +1,2 @@
+# statatak.tex
+text files

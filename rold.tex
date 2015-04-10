@@ -1,0 +1,166 @@
+\begin{figure*}[!t]
+\renewcommand{\baselinestretch}{.5}
+\centering
+\small
+  \begin{tabular}{lccccccccc|}
+\multicolumn{10}{c}{20 * LEAVE-ONE-OUT }\\~\\~\\
+&	\begin{sideways}\parbox{9mm}{TEAK}\end{sideways}	&	\begin{sideways}\parbox{9mm}{LR}\end{sideways}	&	\begin{sideways}\parbox{9mm}{NNet}\end{sideways}	&	\begin{sideways}\parbox{9mm}{Best(K)}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=1}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=16}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=2}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=4}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=8}\end{sideways}	\\\hline
+\multicolumn{10}{l}{  \underline{{\bf MRE}}}	\\
+Cocomo81	   &	$\bullet$ 	&		&		&	&		&		&		&		&		\\
+Cocomo81e	    &	$\bullet$ 	&		&		&		&		&		&		&		&		\\
+Cocomo81o	    &	$\bullet$ 	&		&		&		&		&		&		&		&		\\
+Nasa93	        &	    &$\bullet$ 	&	&		&		&		&		&		&		\\
+Nasa93c2	    &	     &$\bullet$	&	&		&		&		&		&		&		\\
+Nasa93c5     	&	$\bullet$ 	 &		&	&		&		&		&		&		&		\\
+Desharnais	    &		     &$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	            &	$\bullet$	  &		&		&		& 	&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$ 	 &		&		&		&		&		&		&		&		\\
+\rowcolor{DarkGray}\em Count	&	$6$	&	$3$	 &	$0$	&	0	&	0	&	0	&	0	&	0	&	0	\\
+
+%\multicolumn{10}{l}{ \R MRE: top 2}	\\
+% %&	\begin{sideways}\parbox{9mm}{TEAK}\end{sideways}	&	\begin{sideways}\parbox{9mm}{LR}\end{sideways}	&	\begin{sideways}\parbox{9mm}{NNet}\end{sideways}	&	\begin{sideways}\parbox{9mm}{Best(K)}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=1}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=16}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=2}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=4}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=8}\end{sideways}	\\\hline
+%Cocomo81	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&		&	$\bullet$	&		&		&		\\
+%Nasa93	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&		&		&	$\bullet$	&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Total	&	8	&	4	&	3	&	1	&	1	&	1	&	0	&	0	&	0	\\
+%
+\hline\multicolumn{10}{l}{  \underline{{\bf Pred(25)}}}	\\
+Cocomo81	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81e	&		&		&	$\bullet$	&		&		&		&		&		&		\\
+Cocomo81o	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Nasa93	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c2	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Desharnais	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+\rowcolor{DarkGray}\em Count	&	5	&	3	&	1	&	0	&	0	&	0	&	0	&	0	&	0	\\
+
+%\multicolumn{10}{l}{ \R Pred(25): top 2}	\\
+%Cocomo81	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&		&	$\bullet$	&		&		&		\\
+%Nasa93	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&		&		&	$\bullet$	&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Total	&	8	&	4	&	3	&	1	&	1	&	1	&	0	&	0	&	0	\\
+%
+\hline\multicolumn{10}{l}{ \underline{{\bf AR}}}	\\
+Cocomo81	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81e	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81o	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Nasa93	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c2	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Desharnais	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$	&		&		&		&		&		&		&		&		\\\
+\rowcolor{DarkGray}\em Count	&	6	&	3	&	0	&	0	&	0	&	0	&	0	&	0	&	0	\\
+%\multicolumn{10}{l}{ \R AR: top 2}	\\
+%Cocomo81	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&	$\bullet$	&		&		&		&		\\
+%Nasa93	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Count	&	7	&	4	&	4	&	2	&	0	&	1	&	0	&	0	&	0	\\
+\hline
+\end{tabular}
+\begin{tabular}{lccccccccc}
+\multicolumn{10}{c}{20 * 3-WAY CROSS-VALIDATION}\\~\\~\\
+&	\begin{sideways}\parbox{9mm}{TEAK}\end{sideways}	&	\begin{sideways}\parbox{9mm}{LR}\end{sideways}	&	\begin{sideways}\parbox{9mm}{NNet}\end{sideways}	&	\begin{sideways}\parbox{9mm}{Best(K)}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=1}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=16}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=2}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=4}\end{sideways}	&	\begin{sideways}\parbox{9mm}{k=8}\end{sideways}	\\\hline
+\multicolumn{10}{l}{  \underline{{\bf MRE}}}	\\
+Cocomo81	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81e	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81o	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Nasa93	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c2	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Desharnais	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+\rowcolor{DarkGray}\em Count	&	6	&	3	&	0	&	0	&	0	&	0	&	0	&	0	&	0	\\
+
+%\multicolumn{10}{l}{ \R Mre: top 2}	\\
+%Cocomo81	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&		&	$\bullet$	&		&		&		\\
+%Nasa93	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&	$\bullet$	\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Count	&	8	&	3	&	3	&	2	&	0	&	1	&	0	&	0	&	1	\\
+%
+\hline\multicolumn{10}{l}{  \underline{{\bf Pred(25)}}}	\\
+Cocomo81	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81e	&		&		&	$\bullet$	&		&		&		&		&		&		\\
+Cocomo81o	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Nasa93	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c2	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Desharnais	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+\rowcolor{DarkGray}\em Count	&	5	&	3	&	1	&	0	&	0	&	0	&	0	&	0	&	0	\\
+
+%\multicolumn{10}{l}{ \R Pred(25): top 2}	\\
+%Cocomo81	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&		&	$\bullet$	&		&		&		\\
+%Nasa93	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&		&		&		&		&	$\bullet$	&		&		&		\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Count	&	8	&	3	&	5	&	0	&	0	&	2	&	0	&	0	&	0	\\
+%
+\hline\multicolumn{10}{l}{  \underline{{\bf AR}}} \\
+Cocomo81	&		&		&		&	$\bullet$	&		&		&		&		&		\\
+Cocomo81e	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Cocomo81o	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Nasa93	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c2	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Nasa93c5	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+Desharnais	&		&	$\bullet$	&		&		&		&		&		&		&		\\
+Sdr	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+ISBSG-Banking	&	$\bullet$	&		&		&		&		&		&		&		&		\\
+\rowcolor{DarkGray}\em Count	&	6	&	3	&	0	&	1	&	0	&	0	&	0	&	0	&	0	\\
+
+%\multicolumn{10}{l}{ \R AR: top 2} \\
+%Cocomo81	&	$\bullet$	&		&		&	$\bullet$	&		&		&		&		&		\\
+%Cocomo81e	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%Cocomo81o	&	$\bullet$	&		&		&		&	$\bullet$	&		&		&		&		\\
+%Nasa93	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c2	&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		&		\\
+%Nasa93c5	&	$\bullet$	&		&		&		&	$\bullet$	&		&		&		&		\\
+%Desharnais	&		&	$\bullet$	&	$\bullet$	&		&		&		&		&		&		\\
+%Sdr	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%ISBSG-Banking	&	$\bullet$	&		&	$\bullet$	&		&		&		&		&		&		\\
+%\em Count	&	8	&	3	&	4	&	1	&	2	&	0	&	0	&	0	&	0	\\
+	\hline
+\end{tabular}
+
+\caption{
+This figure counts how often one effort estimation method was ranked \#1 in a comparison
+with eight others. 
+The last row of each table shows the sum of times a method appeared as the top performing variant.
+In the majority of cases, the TEAK learner proposed in~\cite{koc11b} was the top-ranked effort estimation prediction method.
+}
+\label{fig:loocv}
+\end{figure*}
+
